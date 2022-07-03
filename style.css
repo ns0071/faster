@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-h {
+    width: 100%;
+    height: 45px;
+    background-color: #1F1F2E;
+}
+
+.contact-h>.contact-l>a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.contact-l {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+
+.nav>.logo {
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    color: #FF4800;
+    font-family: 'Arial Black';
+}
+
+.nav>.nav-l>ul {
+    display: flex;
+}
+
+.nav>.nav-l>ul>li {
+
+    width: 90px;
+    height: 89px;
+    list-style: none;
+    /* background-color: #FF4800; */
+    position: relative;
+}
+
+.nav>.nav-l>ul>li:hover,
+.active {
+    background-color: #FF4800;
+}
+
+.nav>.nav-l>ul>li>a {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Black';
+}
+
+.nav>.nav-input {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+
+}
+
+.nav>.nav-input>button {
+    width: 180px;
+    height: 40px;
+    background-color: #FF4800;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
